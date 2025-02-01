@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repository](https://github.com/okayishmael/product-preview-card-component)
-- Live Site URL: [Github Live Pages](https://okayishmael.github.io/product-preview-card-component/)
+- Solution URL: [Github Repository](https://github.com/mustafasen97/product-preview-card-component.git)
+- Live Site URL: [Github Live Pages](https://mustafasen97.github.io/product-preview-card-component/)
 
 ## My process
 - Go over figma design and design system for the project
@@ -74,8 +74,8 @@ different cases and code experiences.
 
 ## Author
 
-- Website - [Add your name here](https://www.linkedin.com/in/ishmael-sunday)
-- Frontend Mentor - [@okayishmael](https://www.frontendmentor.io/profile/okayishmael)
+
+- Frontend Mentor - [@mustafasen97](https://www.frontendmentor.io/profile/mustafasen97)
 
 
 
