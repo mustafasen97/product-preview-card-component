@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2EBE3 !important; /* Change this to your desired color */
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+    margin: 15rem auto;
+    background-color: white;
+    border-radius: 10px;
+    
+    
+}
+
+.card .picture {
+    width: 50%;
+    height: 100%;
+}
+
+.card .picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.content {
+    width: 50%;
+    padding: 1.85rem;
+}
+
+.card_head {
+    
+    text-transform: uppercase; 
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 0.85rem; 
+    font-weight: 500;
+    margin-bottom: 1.1rem;
+    color: hsl(228, 12%, 48%);
+}
+
+
+.card_title { 
+    font-size: 2rem; 
+    font-weight: 700; 
+    color: var(--dark-blue); 
+    font-family: 'Fraunces', serif;
+    
+    margin-bottom: 1.2rem;
+    
+}
+
+.card_description {
+    line-height: 1.5;
+    font-size: 0.88rem; 
+    font-weight: 500; 
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card_price {
+    padding-top: 1.3rem;
+    
+    
+    
+}
+
+.card_new-price {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 700; 
+    color: hsl(158, 36%, 37%);
+    
+}
+
+.card_old-price {
+    position: relative;
+    left: 15px ;
+    bottom: 7px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    
+}
+
+.card_button {
+    text-align: center;
+    display: block; 
+
+   position: relative;
+   top: 30px;
+   padding:  1rem 0;
+   border: none;
+   border-radius: 8px; 
+   width: 100%;
+   background-color: hsl(158, 36%, 37%);
+   color: white;
+   font-weight: 700;
+
+
+   font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.card_button:hover {
+    cursor: pointer;
+    background-color: hsl(228, 12%, 48%);;
+}
+
+.attribution { font-size: 11px; text-align: center; position: relative; bottom:12rem; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.pd-right-10 {
+    padding-right: 10px;
+}
