@@ -14,7 +14,7 @@ body {
     justify-content: center;
     width: 600px;
     height: 450px;
-    margin: 15rem auto;
+    margin: 11rem auto;
     background-color: white;
     border-radius: 10px;
     
@@ -120,7 +120,7 @@ body {
     background-color: hsl(228, 12%, 48%);;
 }
 
-.attribution { font-size: 11px; text-align: center; position: relative; bottom:12rem; }
+.attribution { font-size: 11px; text-align: center; position: relative; bottom:8rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .pd-right-10 {
