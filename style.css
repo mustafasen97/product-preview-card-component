@@ -44,7 +44,7 @@ body {
     text-transform: uppercase; 
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.2rem;
-    font-size: 0.85rem; 
+    font-size: 0.70rem; 
     font-weight: 500;
     margin-bottom: 1.1rem;
     color: hsl(228, 12%, 48%);
@@ -56,8 +56,9 @@ body {
     font-weight: 700; 
     color: var(--dark-blue); 
     font-family: 'Fraunces', serif;
-    
+    line-height: 1;
     margin-bottom: 1.2rem;
+    
     
 }
 
@@ -67,10 +68,11 @@ body {
     font-weight: 500; 
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
+    padding-top: 0.5rem;
 }
 
 .card_price {
-    padding-top: 1.3rem;
+    padding-top: 2.2rem;
     
     
     
@@ -101,7 +103,7 @@ body {
     display: block; 
 
    position: relative;
-   top: 30px;
+   top: 26px;
    padding:  1rem 0;
    border: none;
    border-radius: 8px; 
@@ -110,7 +112,7 @@ body {
    color: white;
    font-weight: 700;
 
-
+   
    font-family: 'Montserrat', sans-serif;
  
 }
@@ -120,9 +122,124 @@ body {
     background-color: hsl(228, 12%, 48%);;
 }
 
+.card_button img {
+
+    position: absolute;
+    top: 34%;
+    left: 23%;
+}
+
 .attribution { font-size: 11px; text-align: center; position: relative; bottom:8rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .pd-right-10 {
     padding-right: 10px;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1200px) {
+
+    .card {
+        width: 500px;
+    height: 300px;
+    }
+    
+    .card_head {
+        font-size: 0.5rem;
+    }
+
+    .card_title {
+        font-size: 1.4rem;
+    }
+
+
+    .card_description {
+        font-size: 0.5rem;
+    }
+
+    .card_price {
+        padding-top: 1.5rem;
+    }
+    .card_new-price {
+        font-size: 1.1rem;
+        padding-bottom: 2rem;
+    }
+
+    .card_old-price {
+        position: relative;
+       bottom: 4px;
+        font-size: 0.5rem;
+       
+    }
+
+    .card_button {
+        position: relative;
+        top: 12px;
+        font-size: 0.6rem;
+        padding: 0.8rem;
+        width: 90%;
+    }
+
+    .card_button img {
+        width: 12px;
+
+    }
+
+}
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+
+    .card {
+        width: 300px;
+    height: 400px;
+    }
+    
+    .card_head {
+        font-size: 0.4rem;
+    }
+
+    .card_title {
+        font-size: 1.2rem;
+    }
+
+
+    .card_description {
+        font-size: 0.5rem;
+    }
+
+    .card_price {
+        padding-top: 1.5rem;
+       
+    }
+    .card_new-price {
+        font-size: 1.1rem;
+        padding-bottom: 2rem;
+    }
+
+    .card_old-price {
+        position: relative;
+       bottom: 4px;
+        font-size: 0.5rem;
+       
+    }
+
+    .card_button {
+        position: relative;
+        top: 28px;
+        font-size: 0.4rem;
+        padding: 0.8rem;
+        width: 100%;
+    }
+
+    .card_button img {
+        width: 8px;
+        position: relative;
+        top: 20%;
+        left: -4px;
+
+    }
+
 }
